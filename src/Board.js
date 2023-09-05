@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 
 import "./Board.css"
 
-const TIME = 3;
+const TIME = 10;
 
 const Board = () => {
     const [x, setX] = useState(0);
